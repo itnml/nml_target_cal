@@ -1,0 +1,31 @@
+.container{
+    /*border: 3px solid lightgray;*/
+    display: flex;
+    height:100vh;
+    align-items:center;
+}
+
+.box{
+    width  : 5rem;
+    height : 98vh;
+   /* margin : 1rem;  */ 
+   flex-basis : 60rem;    
+
+}
+
+.box-one{
+    background : rgb(9, 44, 78);
+    flex-basis: 15rem;
+    flex-shrink:0;    
+}
+
+.box-two{
+    background : rgb(177, 177, 177);
+    flex-basis: 35rem;
+    
+}
+
+.box-three{
+    background : lightgray;    
+    
+}
